@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <script>
+        const distancia = prompt('Ingrese la distancia a recorrer', '');
+
+        if(distancia >= 0 && distancia <= 1000){
+            alert ('Deberás ir a pie')
+        } else if (distancia > 1000 && distancia <= 10000){
+            alert ('Deberás ir en bici')
+        } else if (distancia > 10000 && distancia <= 30000){
+            alert ('Deberás ir en colectivo')
+        } else if (distancia > 30000 && distancia <= 100000){
+            alert ('Deberás ir a auto')
+        } else if (distancia > 100000){
+            alert ('Deberás ir a avión')
+        } else {
+            alert('Error')
+        }
+    </script>
+
+    <script>
+        const n1 = parseInt(prompt('Ingrese primer numero', ''));
+        const n2 = parseInt(prompt('Ingrese segundo numero', ''));
+        const n3 = parseInt(prompt('Ingrese tercer numero', ''));
+        const n4 = parseInt(prompt('Ingrese cuarto numero', ''));
+        const numero = [n1, n2, n3, n4];
+        if (numero[0] > numero[0] && numero[0] > numero[0] && numero[0] > numero[0] ){
+            document.log (`El numero mayor es ${numero[0]}`)
+        }
+    </script>
+</body>
+</body>
+
+</html>
