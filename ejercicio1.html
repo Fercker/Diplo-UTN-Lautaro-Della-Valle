@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="cuadrado1"></div>
+    <div id="cuadrado2"></div>
+    <div id="cuadrado3"></div>
+
+    <script>
+        const cuadrado1 = document.getElementById('cuadrado1');
+        const cuadrado2 = document.getElementById('cuadrado2');
+        const cuadrado3 = document.getElementById('cuadrado3');
+
+        cuadrado1.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'yellow';
+        });
+
+        cuadrado2.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'pink';
+        });
+
+        cuadrado3.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'purple';
+        });
+    </script>
+
+</body>
+</html>
